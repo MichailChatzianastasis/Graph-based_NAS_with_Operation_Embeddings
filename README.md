@@ -31,7 +31,8 @@ Other required python libraries: tqdm, six, scipy, numpy, matplotlib
 
 Training
 --------
-We provide the code in order to incorporate operation embeddings into [DVAE](https://github.com/muhanzhang/D-VAE)
+We provide the code to incorporate operation embeddings into [DVAE] models (https://github.com/muhanzhang/D-VAE).
+To train DVAE with operation embeddings run:
 
     python train.py --data-name final_structures6 --save-interval 100 --save-appendix _DVAE --epochs 300 --lr 1e-4 --model DVAE_EMB --bidirectional --nz 56 --batch-size 32
 
