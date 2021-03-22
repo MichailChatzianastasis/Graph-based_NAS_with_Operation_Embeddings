@@ -77,7 +77,7 @@ to run Bayesian optimization for neural architecturs and Bayesian networks, resp
 ### Latent Space Visualazation:
 To use t-sne in the learned latent space run:
 
-python latent_space_tsne.py --data-name final_structures6 --model DVAE-EMB --save-appendix DVAE-EMB --epochs 300
+`python latent_space_tsne.py --data-name final_structures6 --model DVAE-EMB --save-appendix DVAE-EMB --epochs 300`
 
 It will construct the appropriate tsne.pkl files in the results directory of the model.
 
@@ -86,6 +86,6 @@ It will construct the appropriate tsne.pkl files in the results directory of the
 
 To extract the igraphs from the dataset run:
 
-python igraph_extraction.py --data-name final_structrures6 --model DVAE-EMB --save-appendix DVAE-EMB
+`python igraph_extraction.py --data-name final_structrures6 --model DVAE-EMB --save-appendix DVAE-EMB`
 
 It will create a pickle file igraphs_train.pickle. Then in file igraphs_analysis.py you can read the pickle file and perform the analysis of the graphs.
