@@ -1,0 +1,9 @@
+./results/*
+./software/enas
+./bayesian_optimization/ENAS12_results
+./bayesian_optimization/ENAS_results
+./bayesian_optimization/ENAS_aggregate_results
+*.png
+*.pickle
+*.pkl
+./software/enas/*
