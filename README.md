@@ -75,11 +75,13 @@ to run Bayesian optimization for neural architecturs and Bayesian networks, resp
 
 
 ### Latent Space Visualazation:
+---------------------
+You can reduce the dimensions of the latent space using t-sne, in order to visualize it in 2d space.
 To use t-sne in the learned latent space run:
 
 `python latent_space_tsne.py --data-name final_structures6 --model DVAE_EMB --save-appendix DVAE_EMB --epochs 300`
 
-It will construct the appropriate tsne.pkl files in the results directory of the model.
+It will construct the appropriate tsne.pkl files in the results directory of the model. Then you can read the tsne.pkl files and plot the 2 dimensions of the latent space.  
 
 ### Architecture Performance and Graph Properties
 -------------------------------------------------
