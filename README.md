@@ -81,7 +81,7 @@ To use t-sne in the learned latent space run:
 
 It will construct the appropriate tsne.pkl files in the results directory of the model.
 
-### .Architecture Performance and Graph Properties
+### Architecture Performance and Graph Properties
 -------------------------------------------------
 
 To extract the igraphs from the dataset run:
