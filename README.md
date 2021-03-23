@@ -1,7 +1,7 @@
 Operation Embeddings For Neural Architecture Search
 ===============================================================================
 
-Abstract
+Abstract:
 -----
 Neural Architecture Search (NAS) has recently gained increased attention, as a class of approaches that automatically searches in an input space of network architectures.
 A crucial part of the NAS pipeline is the encoding of the architecture that consists of the applied computational blocks,
@@ -11,7 +11,7 @@ learnable representations in the optimization process. This approach, which effe
 of the proposed operation embeddings to the generation of highly accurate models, achieving state-of-the-art performance. Finally, our method produces top-performing
 architectures that share similar operation and graph patterns, highlighting a strong correlation between the structural properties of the architecture and its performance.
 
-Installation
+Installation:
 ------------
 
 Tested with Python 3.6, PyTorch 0.4.1.
@@ -29,14 +29,14 @@ Install pygraphviz by:
 
 Other required python libraries: tqdm, six, scipy, numpy, matplotlib
 
-Training
+Training:
 --------
 We provide the code to incorporate operation embeddings into [DVAE] models (https://github.com/muhanzhang/D-VAE).
 To train the model with operation embeddings run:
 
     python train.py --data-name final_structures6 --save-interval 100 --save-appendix _DVAE-EMB --epochs 300 --lr 1e-4 --model DVAE_EMB --bidirectional --nz 56 --batch-size 32
 
-Bayesian Optimization
+Bayesian Optimization:
 ---------------------
 
 To perform Bayesian optimization experiments after training the graph autoencoder models, the following additional steps are needed.
@@ -74,7 +74,7 @@ Then, in "bayesian_optimization/", type:
 to run Bayesian optimization for neural architecturs and Bayesian networks, respectively.
 
 
-### Latent Space Visualazation:
+Latent Space Visualazation:
 ---------------------
 You can reduce the dimensions of the latent space using t-sne, in order to visualize it in 2d space.
 To use t-sne in the learned latent space run:
@@ -83,7 +83,7 @@ To use t-sne in the learned latent space run:
 
 It will construct the appropriate tsne.pkl files in the results directory of the model. Then you can read the tsne.pkl files and plot the 2 dimensions of the latent space.  
 
-### Architecture Performance and Graph Properties
+Architecture Performance and Graph Properties:
 -------------------------------------------------
 
 To extract the igraphs from the dataset run:
