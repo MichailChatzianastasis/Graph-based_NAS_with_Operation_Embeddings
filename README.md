@@ -1,4 +1,4 @@
-Operation Embeddings For Neural Architecture Search
+Graph-based Neural Architecture Search with Operation Embeddings
 ===============================================================================
 
 Abstract:
