@@ -10,6 +10,7 @@ vector to encode the operator information. In this paper, we propose the replace
 learnable representations in the optimization process. This approach, which effectively captures the relations of different operations, leads to smoother and more accurate representations of the architectures and consequently to improved performance of the end task. Our extensive evaluation in ENAS benchmark demonstrates the effectiveness
 of the proposed operation embeddings to the generation of highly accurate models, achieving state-of-the-art performance. Finally, our method produces top-performing
 architectures that share similar operation and graph patterns, highlighting a strong correlation between the structural properties of the architecture and its performance.
+[Link](https://arxiv.org/abs/2105.04885)
 
 Installation:
 ------------
