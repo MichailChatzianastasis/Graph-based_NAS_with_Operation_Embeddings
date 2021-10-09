@@ -1,6 +1,8 @@
 Graph-based Neural Architecture Search with Operation Embeddings 
 ===============================================================================
 #### Accepted to ICCV 2021 Workshop on Neural Architectures: Past, Present and Future. [Paper Link](https://arxiv.org/abs/2105.04885)
+Authored by: Chatzianastasis Michail, Dasoulas George, Siolas Georgios, Vazirgiannis Michalis
+
 Abstract:
 -----
 Neural Architecture Search (NAS) has recently gained increased attention, as a class of approaches that automatically searches in an input space of network architectures.
@@ -92,9 +94,14 @@ To extract the igraphs from the dataset run:
 
 It will create a pickle file igraphs_train.pickle. Then in file igraphs_analysis.py you can read the pickle file and perform the analysis of the graphs.
 
+Contact:
+-------------------------------------------------
+For any question, you can contact mixalisx97@gmail.com 
+
 Citation:
 -------------------------------------------------
-  @inproceedings{Chatzianastasis_2021_ICCV,
+```
+@inproceedings{Chatzianastasis_2021_ICCV,
     author    = {Chatzianastasis, Michail and Dasoulas, George and Siolas, Georgios and Vazirgiannis, Michalis},
     title     = {Graph-Based Neural Architecture Search With Operation Embeddings},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
@@ -102,4 +109,5 @@ Citation:
     year      = {2021},
     pages     = {393-402}
 }
+```
 
