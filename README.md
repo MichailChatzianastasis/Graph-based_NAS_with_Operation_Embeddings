@@ -1,6 +1,6 @@
 Graph-based Neural Architecture Search with Operation Embeddings 
 ===============================================================================
-#### Accepted to ICCV 2021 Workshop on Neural Architectures: Past, Present and Future. [Paper Link](https://arxiv.org/abs/2105.04885)
+#### Accepted to ICCV 2021 Workshop on Neural Architectures: Past, Present and Future. [Paper Link](https://arxiv.org/abs/2105.04885) , [Poster](https://github.com/MichailChatzianastasis/Graph-based_NAS_with_Operation_Embeddings/blob/master/Graph_based_neural_architecture_search_with_operation_embeddings_ICCV.pdf)
 Authored by: Chatzianastasis Michail, Dasoulas George, Siolas Georgios, Vazirgiannis Michalis
 
 Abstract:
