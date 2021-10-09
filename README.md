@@ -94,13 +94,12 @@ It will create a pickle file igraphs_train.pickle. Then in file igraphs_analysis
 
 Citation:
 -------------------------------------------------
-    @misc{chatzianastasis2021graphbased,
-          title={Graph-based Neural Architecture Search with Operation Embeddings}, 
-          author={Michail Chatzianastasis and George Dasoulas and Georgios Siolas and Michalis Vazirgiannis},
-          year={2021},
-          eprint={2105.04885},
-          archivePrefix={arXiv},
-          primaryClass={cs.LG}
-    }
-
+  @InProceedings{Chatzianastasis_2021_ICCV,
+    author    = {Chatzianastasis, Michail and Dasoulas, George and Siolas, Georgios and Vazirgiannis, Michalis},
+    title     = {Graph-Based Neural Architecture Search With Operation Embeddings},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {393-402}
+}
 
